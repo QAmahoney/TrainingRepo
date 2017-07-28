@@ -1,0 +1,2 @@
+toReplace,replacement, c, t =input("Char to replace : "),input("Replace with : "), open("%s.txt" %input("File to Read (not including .txt) : "),'r'), open("%s.txt" %input("New File name (not including .txt) : "),"w")
+for char in c.read(): t.write(char) if char != toReplace else t.write(replacement)

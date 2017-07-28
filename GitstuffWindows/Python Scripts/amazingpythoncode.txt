@@ -1,0 +1,3 @@
+s1, s2, vowels = "QA Consulting", "Office for National Statistics", ('a', 'e', 'i', 'o', 'u','A', 'E', 'I', 'O', 'U')
+print(list(filter(lambda l : l in vowels, s1)))
+print(list(filter(lambda l : l not in vowels, s2)))

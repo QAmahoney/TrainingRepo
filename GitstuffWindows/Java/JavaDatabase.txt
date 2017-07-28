@@ -1,0 +1,37 @@
+import java.io.sql
+import java.sql.*
+^^^^^
+One of these imports work.
+
+
+3 steps when using SQL in java:
+
+1. Connection
+	a. Driver
+	b. Location of DMS(IP ADDRESS)
+	c. User
+	d. Password
+2. Statement (used to carry instruction from client to server)
+3. ResultSet	
+
+Example:
+class DBS
+{
+	public static void main(String args[])
+	{
+		try
+		{
+			class.forName("Com.mysql.jdbc.Driver");
+			Connection con = DriverManager.getConnection("JDBC:\\localhost:3214\ONS","root","");
+
+			statement stm = con.createStatement();
+			ResultSet rs = stm.ExecuteQuery("Select * from ASDA"); 	//Works only for fetching data
+					stm.ExecuteUpdate(insert........);	//Works fro dml commands
+
+			while(RS.next()){			//Next moves to next ROW	
+			system.out.println(RS.getInt(0))
+			system.out.println(RS.getString(1)) 	//Numbers represent column 
+			}
+		}
+	}
+}
