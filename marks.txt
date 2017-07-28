@@ -1,0 +1,10 @@
+101|physics|70
+101|chemestry|80
+102|physics|65
+102|chemestry|83
+102|maths|72
+103|chemestry|80
+104|physics|79
+104|chemestry|36
+104|maths|40
+105|chemestry|100

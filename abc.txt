@@ -1,0 +1,6 @@
+1,Peter,Manchester,m
+2,Smith,London,m
+3,Tom,Cardiff,m
+4,Gen,Newport,f
+5,Rebecca,Scotland,f
+
